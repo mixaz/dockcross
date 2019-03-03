@@ -36,7 +36,7 @@ ENV PKG_CONFIG_PATH /usr/lib/arm-linux-gnueabihf/
 
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
-ARG IMAGE=dockcross/linux-armv7
+ARG IMAGE=dockcross/linux-armv7a
 ARG VERSION=latest
 ARG VCS_REF
 ARG VCS_URL
